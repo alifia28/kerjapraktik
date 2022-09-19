@@ -40,8 +40,6 @@
     
                     <a class="btn btn-primary" href="{{ route('products.edit',$product->id) }}">Edit</a>
 
-                    <a class="btn btn-primary" href="{{ route('pdf.create') }}" target="_blank">PDF</a>
-   
                     @csrf
                     @method('DELETE')
       

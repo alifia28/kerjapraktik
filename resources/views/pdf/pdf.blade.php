@@ -150,8 +150,8 @@
 
 <body>
     <header>
-        <img src="assets/images/BUMN.jpeg" class="topleft">
-        <img src="assets/images/PAL.jpeg" class="topright">
+        <img src="assets/images/logo-bumn1.png" class="topleft">
+        <img src="assets/images/logo-4.png" class="topright">
     </header>
     <h2 style="text-decoration: underline;">LAPORAN DATA</h2>
     <main>

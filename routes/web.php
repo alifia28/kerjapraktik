@@ -15,9 +15,9 @@ use App\Http\Controllers\ProductController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::resource('products', ProductController::class);
 Route::get('/createPDF', [ProductController::class,'createPDF'])->name('pdf.create');
